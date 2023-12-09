@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="./Images/Restaurants/download.png" type="image/icon type">
+<link rel="stylesheet" href="home.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body onload="myload()">
+<div class="loader-container" id = "loader">
+    <img src="./Images/loader/loader.gif">
+    
+</div>
+
+    <!--Header section start-->
+    <header>
+        <a href="#" class="logo"><i class="fa fa-utensils"></i>SwiftMunch.</a>
+        <nav class="navbar">
+            <a class="active" href="./home.html">Home</a>
+            <a href="./Restaurants.html">Restaurants</a>
+            <a href="#" onclick="openAbout()">about</a> 
+            <a href="./contact.html" >Contact us</a><!--Tried to do more than I could so yet to be finished-->
+            
+            <a class="feed" id="feedback">Feedback</a><!--At least it's gonna be feedback in the future-->
+            <a href="#">Orders</a><!--To anyone reading this code yes I did add some things to make the header look good-->
+            <a href="login.html">Log in</a>
+           
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="login.html" class="fas fa-sign-in-alt"></a>
+            
+        </div>
+    </header>
+    <div class="back">  <!--I've yet to get the hang of this keshtu qe kjo pjes eshte pak kopi past-->
+    <div class="container1" id="co1">
+        <div class="post">
+            <div class="text">Thanks for Rating us!</div>
+            <div class="edit">Edit</div>
+            <i class="fas fa-times" id="close"></i>
+    
+        </div>
+        <div class="star-widget">
+        <input type="radio" name="rate" id="rate-5">
+        <label for="rate-5" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-4">
+        <label for="rate-4" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-3">
+        <label for="rate-3" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-2">
+        <label for="rate-2" class="fas fa-star"></label>
+        <input type="radio" name="rate" id="rate-1">
+        <label for="rate-1" class="fas fa-star"></label>
+        <form action="#">
+            <i class="fas fa-times" id="close"></i>
+            <h4></h4>
+            <div class="textarea">
+                <textarea cols="30" placeholder="Describe your experience"></textarea>
+    
+            </div>
+            
+            <div class="btn">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+        </div>    
+    </div>
+    </div>
+    <!-- Header section ends ktu-->
+
+    <!--search form yet to be done like many things-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close1"></i>
+    </form>
+    <!--Search Form ends for part 1-->
+
+    <!--Home-->
+    <section class="home" id="home-section">
+<!--Add-->
+<div class="add">
+ <div class="add-container">
+ <img src="./Images/banner/burger banner.jpg">
+ <div class="textimg"><h2>10% off on your<br> first order</h2> <!--Diqka aktraktive per konsumatoret-->
+ <a href="./ksbakers.html"><button class="ordr">Order Now</button></a></div>
+ 
+ </div>
+</div>
+<!--Add ends-->
+
+<!--Te veqantat e ketij vendi-->
+    <div class="spl">
+        <h2>Our Specials</h2>
+</div>
+<div class="table">
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Albanian_Byrek (1).jpg" height="150"><h4>Byrek</h4></a>
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Flia (1).jpeg" height="150"><h4>Flija</h4></a>
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Lahmaxhun (1).jpeg" height="150"><h4>Lahmaxhun</h4></a>
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Tava.jpg" height="150"><h4>Tava</h4></a>
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Trilece2.jpeg" height="150"><h4>Trilece</h4></a>
+    <a href="./dishes.html"><img src="./Images/PopularFoods/Kombinim.jpeg" height="150"><h4>Kombinim</h4></a>
+</div>
+
+<!--It's added for style more than practicallity so yet to decide where this should send people-->
+<div class="top-re">
+    <h2>Most Popular this Year</h2>
+</div>
+<div class="table1">
+    <a href="./Menus.html"><img src="./Images/TopRestaurants/missini-sweets (1).jpg" height="150"><h4>Missini Sweets</h4><p>6P8V+37C, Mon Çollaku, Prizren 20000</p></a>
+    <a href="./Menus.html"><img src="./Images/TopRestaurants/Tiffany (2).jpeg" height="150"><h4>Tiffany Restaurant</h4><p>16 Marin Barleti, Prizren</p></a>
+    <a href="./Menus.html"><img src="./Images/TopRestaurants/Aurora (2).jpeg" height="150"><h4>Aurora</h4><p>Rruga Adem Jashari (Shadervan)</p></a>
+    <a href="./Menus.html"><img src="./Images/TopRestaurants/FishHouse (1).jpeg" height="150"><h4>Fish House</h4><p>Rruga Sheshi I Lidhjes </p></a>
+ 
+</div>
+<div class="container-grocery">
+  <img src="./Images/banner/grocery-delivery.png" alt="Norway" style="width:100%;">
+  <div class="text-block">
+    <h2>LocalSuppliers</h2>
+    <h4>Anything you need, delivered</h4>
+    <p>Get your grocery, meat, vegetables at your door step<br>
+    Stay Home and Enjoy our services.</p> <!--Went too much overboard by trying too add groceri deliveries too-->
+    <div class="ordergrocery">
+  <a href="https://api.whatsapp.com/send?phone=+444666999&text=I wanted to order grocery/meat/vegetables" class="orderg" onclick="mygrocery()"><i class="fab fa-whatsapp"></i> Order Now</a>
+  </div>
+  </div>
+  <!--Shancat qe ky sen ndodh n KS eshte ulte So honestly I also added this just for style and that I have too many ideas/plans-->
+</div>
+
+<!--Restaurant Categories yet to decide wether we will go with categories or something different it's just for the first part-->
+<div class="res">
+    <h2>Restaurant Categories</h2>
+    <hr class="line">
+</div>
+<section class="barb" id="biryani">
+    <h1 class="barbeque">Restaurants</h1>
+    <hr class="line"> 
+    <div class="box-container">
+    <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/FFFranchise.jpg"></a>
+        <h3>FastFoodFranchise</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Burger King,KFC,My Shawarma</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/StarB_cleanup.jpg"></a>
+        <h3>LocalFastFood</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Mega Burger,Elif Burger,Fry and Fly</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/Finnish_cleanup.jpg"></a>
+        <h3>Pizza&Pasta</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Finnish Pizza,Aurora a La Carte,Pasta Fasta</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/Vjeter.jpg"></a>
+        <h3>Traditional&Grill</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Tiffany Restaurant,Hani i vjeter,Resturant Beska,Te Hyska</p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/Mariana.jpg"></a>
+        <h3>Fish&Vegetarian</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Fish House,Mariana FishHouse,Fish and Mediterian </p>
+
+        </div>
+        </div>
+        <div class="box">
+        <a href="./Restaurants.html"><img src="./Images/Restaurants/Sweetz.jpg"></a>
+        <h3>Sweets&Bakeries</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <br>
+            <p>Seams Sweets,Missini Sweets,Burek Sarajeva,Te Oreksi,Aurora</p>
+
+        </div>
+        </div>
+   
+        
+
+        </div>
+        </section>
+    
+
+</section>
+<div id="about" class="about">
+    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="about-overlay">
+        <h1>About us</h1>
+        <p>Made in 2023, Our technology platform connects foreign customers,<br> 
+        restaurant partners and delivery partners, with local ones. <br>
+        Customers use our platform to search and discover restaurants, read and write customer 
+        generated reviews and view and upload photos,<br> order food delivery, book a table and make 
+        payments while dining-out at restaurants. 
+    </div>
+</div>
+<!--Not a made website yet but I needed a fast way to add something as to fullfill part 1 requierments-->
+
+<!--Footer Section-->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            
+            <div class="footer-col">
+                <ul>
+                    <i class="fa fa-utensils"></i>
+                    <span>SwiftMunch</span>
+                </ul>
+                <div class="map">
+                    <ul>
+                        <i class="fa fa-map-marker"></i>
+                            <span>Located in Zahir Pajaziti 51/3
+                                
+                            </span>
+                    </ul>
+                    </div>
+                <div class="mail">
+                    <ul>
+                        <i class="fas fa-inbox"></i>
+                        <span>
+                            support@SwiftMunch.com
+                        </span>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>SwiftMunch</h4>
+                <ul>
+                    <li><a href="#" onclick="openAbout()">about us</a></li>
+                    <li><a href="#">Our services</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Payment policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">My orders</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Payment options</a></li>
+
+                </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Order Now</h4>
+                    <ul>
+                        <li><a href="#">Fast Food</a></li>
+                        <li><a href="#">Traditional</a></li>
+                        <li><a href="#">Bakery</a></li>
+                        <li><a href="#">Supplier</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/login"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            
+
+</footer>
+<!--The Footer was annoying -->
+
+<!--Home  ends-->
+
+    
+
+    <!--JavaScript-->
+    <script>
+        let menu = document.querySelector('#menu-bars');
+        let navbar = document.querySelector('.navbar');
+        
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+        window.onscroll=() => {
+            menu.classList.remove('fa-times');
+            navbar.classList.remove('active');
+        }
+        document.querySelector('#search-icon').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector('#close1').onclick=() => {
+            document.querySelector('#search-form').classList.toggle('active');
+        }
+        document.querySelector("#feedback").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+        document.querySelector("#close").onclick=() =>{
+        document.querySelector("#co1").classList.toggle("active");
+    }
+    var preloader = document.getElementById("loading");
+    function myload() {
+        preloader.style.display="none";
+    }
+
+
+        const btn = document.querySelector("button");
+        const post = document.querySelector(".post");
+        const widget = document.querySelector(".star-widget");
+        const editBtn = document.querySelector(".edit");
+    
+        btn.onclick = () =>{
+        widget.style.display = "none";
+        post.style.display = "block";
+        editBtn.onclick = () =>{
+            widget.style.display = "block";
+            post.style.display = "none";
+        }
+        return false;
+    }
+    function openAbout(){
+        document.getElementById("about").style.width = "100%";
+
+    }
+    function closeNav(){
+        document.getElementById("about").style.width = "0%";
+    }
+    var preloader = document.getElementById("loader");
+    
+    function myloader(){
+        preloader.style.display = "none";
+    }
+    function mygrocery(){
+        confirm("Order Now on Whatsapp click ok to continue");
+    }
+    </script>
+    
+    <!--JavaScript ends -->
+
+</body>
+</html>
